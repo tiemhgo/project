@@ -1,3 +1,4 @@
-.q{
+.spine{
     position: absolute;
+    background: linear-gradient(90%,black, grey, black, grey, black, grey)
 }
