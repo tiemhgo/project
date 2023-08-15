@@ -37,17 +37,19 @@ html{
   .book-spine {
     width: 20px;
     height: 100%;
-    background: linear-gradient(90deg, black, grey, black, grey, black, grey);
+    background: linear-gradient(90deg, Dimgrey, grey, Dimgrey, grey, Dimgrey, grey);
     position: absolute;
     top: 0;
-    right: -20px;
+    z-index: 1;
     border-radius: 0 5px 5px 0;
-    transform-origin: right;
-    transform: perspective(20px) rotateY(-10deg);
   }
   
   .title-text {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 10px;
+  }
+  .pages{
+    background-color: #fff;
+    position: absolute;
   }
