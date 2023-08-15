@@ -52,4 +52,5 @@ html{
   .pages{
     background-color: #fff;
     position: absolute;
+    height:1vh;
   }
