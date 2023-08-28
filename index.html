@@ -1,18 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8"/>
+
+<head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type=“text/css” href="styles.css">
-    <div class="filler">
-        <br class="filler-inside">
-    </div>
-    <body class="book">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div class="filler">
+    <br class="filler-inside">
+</div>
+
+<body class="book">
     <div class="cover">
         <div class="title">
             <h2 class="title-text">Book</h2>
         </div>
     </div>
-    <div class="pages"></div>
-    <div class="book-spine"></div>
+    <div class="filler">
+    <br class="filler-inside">
+</div>
+    <div class="newsletter">
+    <h1>Newsletter</h1>
+    <p>Sign up for our newsletter and other updates!</p>
+    <form method="post" action='https://tiemhgo.com'>
+      <fieldset>
+        <label for="name">Enter your name: <input id="name" name="name" type="text" required /></label>
+        <div class="filler">
+    <br class="filler-inside">
+</div>
+                <label for="email">Enter your email: <input id="email" name="email" type="password" pattern="[a-zA-Z0-5.!#$%&'*+/=?^_`{|}~-]+@]{3,}"required /a></label>
+        <div class="filler">
+    <br class="filler-inside">
+</div>
+        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <div class="filler">
+    <br class="filler-inside">
+</div>
+
+      <fieldset>
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I agree to recieve one email a week deatailing new releases</a>
+        </label>
+      </fieldset>
+      <input type="submit"></input>
+    </div>
 </body>
+
 </html>
