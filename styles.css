@@ -1,6 +1,7 @@
-html{
-    background-color:white;
+html {
+    background-color: white;
 }
+
 .book {
     width: 200px;
     height: 250px;
@@ -9,32 +10,32 @@ html{
     margin: 50px auto;
     border-radius: 5px;
     box-shadow: 0 2px 5px lightblue;
-  }
-  
-  .book::before,
-  .book::after {
+}
+
+.book::before,
+.book::after {
     content: "";
     position: absolute;
     background-color: #fff;
-  }
-  
-  .book::before {
+}
+
+.book::before {
     width: 20px;
     height: 100%;
     top: 0;
     left: -20px;
     border-radius: 5px 0 0 5px;
-  }
-  
-  .book::after {
+}
+
+.book::after {
     width: 100%;
     height: 20px;
     bottom: -20px;
     left: 0;
     border-radius: 0 0 5px 5px;
-  }
-  
-  .book-spine {
+}
+
+.book-spine {
     width: 20px;
     height: 100%;
     background: linear-gradient(90deg, Dimgrey, grey, Dimgrey, grey, Dimgrey, grey);
@@ -42,16 +43,30 @@ html{
     top: 0;
     z-index: 1;
     border-radius: 0 5px 5px 0;
-  }
-  
-  .title-text {
+}
+
+.title-text {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 10px;
-  }
-  .pages{
+}
+
+.pages {
     background-color: #fff;
     position: absolute;
-    height:1vh;
+    height: 1vh;
+}
+.slider-container {
+    width: 300px;
+    margin: 50px auto;
   }
-  
+
+  .newsletter{
+    width: 125%;
+    height: 10px;
+    position: absolute;
+    bottom: -52px;
+    cursor: pointer;
+    background-color: maroon;
+    color: #424651;
+  }
